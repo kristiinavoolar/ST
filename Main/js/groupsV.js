@@ -1,0 +1,17 @@
+var app = angular.module('myApp', []);
+app.controller('groupsCtrl', function($scope) {
+    $scope.names = [
+	{ "Nimi" : "Kasutaja1", "Liitumistasu" : "X", "Programmitasu":"X", "Viisaloiv" : "", "IntraxPEF" : "documents/573ab9e6aa6ef.jpg", "WTleping":"documents/HGDSJ2bYsIfRg.jpg", "USAleping" : "documents/21HQ33r4rRG3M.jpg", "Hinneteleht" : "", "HolidayVisa":"", "Austraalialeping" : "" },
+	{ "Nimi" : "Kasutaja2", "Liitumistasu" : "X", "Programmitasu":"X", "Viisaloiv" : "X", "IntraxPEF" : "documents/OHLqVUNVlQsGZ.jpg", "WTleping":"documents/LXFSy4FvBWREm.jpg", "USAleping" : "documents/bkxofbBYnIZ5r.jpg", "Hinneteleht" : "documents/vKhOP2NekVNrW.jpg", "HolidayVisa":"", "Austraalialeping" : "" },
+	{ "Nimi" : "Kasutaja3", "Liitumistasu" : "X", "Programmitasu":"X", "Viisaloiv" : "", "IntraxPEF" : "", "WTleping":"", "USAleping" : "", "Hinneteleht" : "", "HolidayVisa":"documents/ZWvNorwS3LXMS.jpg", "Austraalialeping" : "documents/OKdEb5QHvYlRx.jpg" },
+	{ "Nimi" : "Kasutaja4", "Liitumistasu" : "X", "Programmitasu":"X", "Viisaloiv" : "X", "IntraxPEF" : "documents/4FywOiFLbbu43.jpg", "WTleping":"documents/DpqrCNm1DRCGy.jpg", "USAleping" : "documents/fwJGEOiEYFGHZ.jpg", "Hinneteleht" : "", "HolidayVisa":"", "Austraalialeping" : "" },
+	{ "Nimi" : "Kasutaja5", "Liitumistasu" : "", "Programmitasu":"", "Viisaloiv" : "", "IntraxPEF" : "", "WTleping":"", "USAleping" : "", "Hinneteleht" : "", "HolidayVisa":"", "Austraalialeping" : "" },
+	{ "Nimi" : "Kasutaja6", "Liitumistasu" : "X", "Programmitasu":"", "Viisaloiv" : "", "IntraxPEF" : "documents/rQuDjP1fw6ldN.jpg", "WTleping":"documents/7mGIwa1d9Tn6M.jpg", "USAleping" : "documents/9PryttL4P4Tmk.jpg", "Hinneteleht" : "", "HolidayVisa":"", "Austraalialeping" : "" },
+	{ "Nimi" : "Kasutaja7", "Liitumistasu" : "X", "Programmitasu":"X", "Viisaloiv" : "X", "IntraxPEF" : "", "WTleping":"", "USAleping" : "", "Hinneteleht" : "", "HolidayVisa":"documents/mIKUxLzIshuwS.jpg", "Austraalialeping" : "documents/9OwIOmfBcrMqC.jpg" },
+	{ "Nimi" : "Kasutaja8", "Liitumistasu" : "X", "Programmitasu":"X", "Viisaloiv" : "", "IntraxPEF" : "documents/hUUKIZ8wDfP9X.jpg", "WTleping":"documents/qRoRIQ0yRI2yY.jpg", "USAleping" : "documents/V9CyC2AVgq9xt.jpg", "Hinneteleht" : "documents/gN41cYfPC4mAc.jpg", "HolidayVisa":"", "Austraalialeping" : "" },
+	{ "Nimi" : "Kasutaja9", "Liitumistasu" : "X", "Programmitasu":"X", "Viisaloiv" : "", "IntraxPEF" : "documents/s5OuhoJIYPlCX.jpg", "WTleping":"documents/HdE8sOsbMVxj3.jpg", "USAleping" : "documents/PaZMAo1rQJW9Y.jpg", "Hinneteleht" : "", "HolidayVisa":"", "Austraalialeping" : "" },
+	{ "Nimi" : "Kasutaja10", "Liitumistasu" : "X", "Programmitasu":"X", "Viisaloiv" : "X", "IntraxPEF" : "documents/3JFBV0zbt7941.jpg", "WTleping":"documents/gyHXvyMPQwfb9.jpg", "USAleping" : "documents/QekvZkgc8jMKX.jpg", "Hinneteleht" : "documents/Vj0Xg13QyE8Sj.jpg", "HolidayVisa":"", "Austraalialeping" : "" },
+	{ "Nimi" : "Kasutaja11", "Liitumistasu" : "X", "Programmitasu":"X", "Viisaloiv" : "", "IntraxPEF" : "", "WTleping":"", "USAleping" : "", "Hinneteleht" : "", "HolidayVisa":"documents/9vrAPAq1h4FZe.jpg", "Austraalialeping" : "documents/EjAoJnxYO89XT.jpg" },
+	{ "Nimi" : "Kasutaja12", "Liitumistasu" : "X", "Programmitasu":"X", "Viisaloiv" : "", "IntraxPEF" : "documents/LSIKbb53eiY4J.jpg", "WTleping":"documents/OVpSm94oKEJ5n.jpg", "USAleping" : "documents/bSSTndH8bbV2e.jpg", "Hinneteleht" : "", "HolidayVisa":"", "Austraalialeping" : "" }
+	];
+});
